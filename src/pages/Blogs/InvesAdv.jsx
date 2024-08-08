@@ -347,6 +347,9 @@ const InvesAdv = () => {
             </p>
           </div>
         </div>
+        <div className="Ads">
+          <p>dsjd s soidjsaioj doasjdiosaj sdj dj as jdsjd sadpjass pd </p>
+        </div>
       </div>
     </div>
     </>

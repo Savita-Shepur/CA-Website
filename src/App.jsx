@@ -85,6 +85,7 @@ import Insurence from './pages/Blogs/LGInsurence.jsx';
 import Startup from './pages/Blogs/StartupRegistration.jsx';
 import ImportExport from './pages/Blogs/ImportExport.jsx';
 import InvestmentAd from './pages/Blogs/InvestmentAd.jsx';
+import PropertyAdvice from './pages/Blogs/PropertyAdvice.jsx';
 
 function App() {
   const { isAuthenticated, isLoading } = useUserContext();
@@ -179,7 +180,7 @@ function App() {
               <Route path='/services/drafAgree/businDisp' element={<Bussinessd />} />
 
               <Route path='/services/advi/loanFund' element={<LoanFund />} />
-              <Route path='/services/advi/prop' element={<Prop />} />
+              <Route path='/services/advi/prop' element={<PropertyAdvice />} />
               <Route path='/services/advi/invest' element={<InvestmentAd />} />
               <Route path='/services/advi/fdadv' element={<Fixed />} />
               <Route path='/services/advi/bondadv' element={<Appeals />} />

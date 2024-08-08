@@ -14,21 +14,7 @@ const Drafting = () => {
         <link rel="canonical" href="/services/appLiti/draft" />
         <meta
           name="keywords"
-          content="drafting,
-drafting meaning,
-drafting of pleading and conveyancing,
-drafting pleading and conveyancing,
-legal drafting,
-drafting in law,
-legal drafting,
-contracts drafting course,
-contract drafting,
-legal drafting course,
-contract drafting course,
-legal drafting definition,
-legal drafting meaning,
-drafting of legal notice,
-agreement drafting"
+          content="drafting, drafting meaning, drafting of pleading and conveyancing, drafting pleading and conveyancing, legal drafting, drafting in law, legal drafting, contracts drafting course, contract drafting, legal drafting course, contract drafting course, legal drafting definition, legal drafting meaning, drafting of legal notice, agreement drafting"
         />
     </Helmet>
     <div className="main-container">
