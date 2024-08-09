@@ -438,7 +438,7 @@ Differing opinions on property use or sale                </li>
           <p>By viewing property matters holistically - considering legal, financial, emotional, and practical aspects - individuals and businesses can more effectively manage their property interests and resolve disputes when they arise. Here's to creating a property landscape where disputes are handled with wisdom, efficiency, and foresight, paving the way for secure and prosperous property ownership!</p>
 
         </div>
-        <div className="ads">
+        <div className="Ads">
           <p>
             sfhui9asyuf ioas jiashi iufyhasui fyasduio foiasdsf ioayuiof
             ayusbiof uyuioasf aosu;yfuiasy fuiqshorsayu iofasiulyfuiashfjkas

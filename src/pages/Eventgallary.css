@@ -15,20 +15,26 @@
 }
 
 /* Centered text */
+/* Centered text */
 .text-center {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
     position: absolute;
     left: 10%;
-    /* top: 20%; */
-    /* left: 50px; */
     font-family: var(--mainfont);
     margin-top: 850px;
 }
 
 .text-center span {
     color: var(--fontcolor);
+}
+
+/* Hide .text-center below 1000px */
+@media screen and (max-width: 999px) {
+    .text-center {
+        display: none;
+    }
 }
 
 /* Gallery list */

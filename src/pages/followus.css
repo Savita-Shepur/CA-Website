@@ -40,6 +40,8 @@
 .column, .column iframe {
     flex: 1;
     min-width: 250px; /* Ensure responsiveness */
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {

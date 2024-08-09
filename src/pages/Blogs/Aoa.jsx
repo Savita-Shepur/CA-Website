@@ -341,7 +341,7 @@ const Aoa = () => {
               <li>Address international shareholder rights</li>
             </ul>
           </div>
-          <div className="ads">
+          <div className="Ads">
             <p>
               sdshjsd oiasdffdiosadio aiosjfosaj sajd asioj psafias jas
               fiasdjifajs apidf asj asjd asjdasdas jdklasdj sajdasdiofisadfiosdu
@@ -350,8 +350,40 @@ const Aoa = () => {
           </div>
         </div>
         <div className="Ads">
-        <p>doisajdiosa jds osuiod dsajiood asoijdio s pdij saia dsapijd oj</p>
-        </div>
+            <div className="blog-button">
+              <div className="whatsapp-button">
+                <button
+                  className="blog-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/7020045454?text=Hi%20there,%20I%27m%20interested%20in%20your%20services.",
+                      "_blank",
+                      "noopener noreferrer"
+                    )
+                  }
+                >
+                  <img
+                    width="25"
+                    height="25"
+                    src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                    alt="whatsapp--v1"
+                  />
+                  Connect with WhatsApp
+                </button>
+              </div>
+              <div className="appointment-button">
+                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                  <img
+                    width="25"
+                    height="25"
+                    src="https://img.icons8.com/color/48/tear-off-calendar--v1.png"
+                    alt="tear-off-calendar--v1"
+                  />
+                  Book an Appointment
+                </button>
+              </div>
+            </div>
+          </div> 
       </div>
     </>
   );

@@ -10,12 +10,15 @@
     width: 85%;
     margin: auto;
     /* flex-wrap: wrap; */
+    justify-content: center;
 }
 
 .Association {
     margin: 40px 0px 20px 0px;
     padding: 10px 0px 20px 0px;
     background-color: var(--bgcolor);
+    display: flex;
+    flex-direction: column;
 }
 
 .Association h2 {
@@ -36,6 +39,11 @@
     margin-bottom: 6rem;
     line-height: 1.3;
 
+}
+
+.achbtn{
+    display: flex;
+    justify-content: center;
 }
 
 .welcomeSection h4 {

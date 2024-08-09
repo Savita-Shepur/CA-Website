@@ -393,7 +393,7 @@ const LLP = () => {
             </ul>
           </div>
         </div>
-        <div className="ads">
+        <div className="Ads">
           <p>
             sfhui9asyuf ioas jiashi iufyhasui fyasduio foiasdsf ioayuiof
             ayusbiof uyuioasf aosu;yfuiasy fuiqshorsayu iofasiulyfuiashfjkas

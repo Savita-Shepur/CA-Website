@@ -432,7 +432,7 @@ const Shareholder = () => {
             setting your business up for long-term success and stability.
           </p>
         </div>
-        <div className="ads">
+        <div className="Ads">
         <p>sdshjsd oiasdffdiosadio aiosjfosaj sajd asioj psafias jas fiasdjifajs apidf asj asjd asjdasdas jdklasdj  sajdasdiofisadfiosdu fas  fdioasfigudffughwed</p>
         </div>
       </div>

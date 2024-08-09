@@ -332,7 +332,7 @@ The importance of litigation in the legal system cannot be overstated. It serves
           
             
         </div>
-        <div className="ads">
+        <div className="Ads">
           <p>
             sfhui9asyuf ioas jiashi iufyhasui fyasduio foiasdsf ioayuiof
             ayusbiof uyuioasf aosu;yfuiasy fuiqshorsayu iofasiulyfuiashfjkas

@@ -497,7 +497,7 @@ const Partner = () => {
             business partnership.
           </p>
         </div>
-        <div className="ads">
+        <div className="Ads">
           <p>
             sdshjsd oiasdffdiosadio aiosjfosaj sajd asioj psafias jas
             fiasdjifajs apidf asj asjd asjdasdas jdklasdj sajdasdiofisadfiosdu

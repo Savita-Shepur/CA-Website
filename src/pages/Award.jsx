@@ -14,7 +14,7 @@ import aword3 from '../images/Suryadatta.png';
 
 const AwardContainer = styled(Box)(({ theme }) => ({
   padding: '40px 20px',
-  backgroundColor: 'white',
+  backgroundColor: 'var(--bgcolor)',
 }));
 
 const AwardHeader = styled(Box)(({ theme }) => ({

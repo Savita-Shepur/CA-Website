@@ -310,7 +310,7 @@ const NonProfitCom = () => {
           <p><span>Q: How often do NPOs need to file returns?</span> A: Most NPOs must file annual returns with their registering authority and the Income Tax Department.</p>
           <p><span>Q: Can NPOs engage in commercial activities? </span>A: Limited commercial activities are allowed if they align with the NPO's objectives and profits are used for the organization's purposes.</p>
         </div>
-        <div className="ads">
+        <div className="Ads">
           <p>
             sfhui9asyuf ioas jiashi iufyhasui fyasduio foiasdsf ioayuiof
             ayusbiof uyuioasf aosu;yfuiasy fuiqshorsayu iofasiulyfuiashfjkas

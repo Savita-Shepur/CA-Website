@@ -287,9 +287,41 @@ debentures meaning in finance"
     <p>In conclusion, debentures remain a vital tool in corporate finance, offering companies a flexible means of raising capital while providing investors with fixed-income investment opportunities. Understanding the intricacies of debentures, from their accounting treatment to their market dynamics, is crucial for both issuers and investors in navigating the complex world of debt financing.</p>
 
         </div>
-        <div className="ads">
-        <p>sdshjsd oiasdffdiosadio aiosjfosaj sajd asioj psafias jas fiasdjifajs apidf asj asjd asjdasdas jdklasdj  sajdasdiofisadfiosdu fas  fdioasfigudffughwed</p>
-        </div>
+        <div className="Ads">
+            <div className="blog-button">
+              <div className="whatsapp-button">
+                <button
+                  className="blog-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/7020045454?text=Hi%20there,%20I%27m%20interested%20in%20your%20services.",
+                      "_blank",
+                      "noopener noreferrer"
+                    )
+                  }
+                >
+                  <img
+                    width="25"
+                    height="25"
+                    src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                    alt="whatsapp--v1"
+                  />
+                  Connect with WhatsApp
+                </button>
+              </div>
+              <div className="appointment-button">
+                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                  <img
+                    width="25"
+                    height="25"
+                    src="https://img.icons8.com/color/48/tear-off-calendar--v1.png"
+                    alt="tear-off-calendar--v1"
+                  />
+                  Book an Appointment
+                </button>
+              </div>
+            </div>
+          </div> 
       </div>
     </div>
     </>
