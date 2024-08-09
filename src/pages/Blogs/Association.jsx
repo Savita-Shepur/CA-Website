@@ -1,8 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import "./Blog.css"
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
+
 
 const Association = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
       <Helmet>
@@ -566,7 +570,7 @@ types of societies sociology,
                 </button>
               </div>
               <div className="appointment-button">
-                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
                   <img
                     width="25"
                     height="25"
@@ -581,6 +585,7 @@ types of societies sociology,
           </div>
         </div>
       </div>
+      {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
     </>
   );
 };

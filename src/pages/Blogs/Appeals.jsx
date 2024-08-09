@@ -1,10 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./Blog.css"
-
-import "./Blog.css";
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
 
 const Appeals = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
       <Helmet>
@@ -531,7 +532,7 @@ const Appeals = () => {
                 </button>
               </div>
               <div className="appointment-button">
-                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
                   <img
                     width="25"
                     height="25"
@@ -545,6 +546,7 @@ const Appeals = () => {
           </div> 
         </div>
       </div>
+      {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
     </>
   );
 };

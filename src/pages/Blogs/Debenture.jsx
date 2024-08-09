@@ -1,8 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import "./Blog.css";
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
+
 
 const Debenture = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <>
     <Helmet>
@@ -310,7 +315,7 @@ debentures meaning in finance"
                 </button>
               </div>
               <div className="appointment-button">
-                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
                   <img
                     width="25"
                     height="25"
@@ -324,6 +329,7 @@ debentures meaning in finance"
           </div> 
       </div>
     </div>
+    {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
     </>
   );
 };

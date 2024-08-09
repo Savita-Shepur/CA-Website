@@ -2,8 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import "./Blog.css";
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
+
 
 const IncomeTax = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <Helmet>
@@ -299,7 +304,7 @@ tax return prepare"
                 </button>
               </div>
               <div className="appointment-button">
-                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
                   <img
                     width="25"
                     height="25"
@@ -310,9 +315,10 @@ tax return prepare"
                 </button>
               </div>
             </div>
-          </div> 
+          </div>
         </div>   
       </div>
+      {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
     </>
   );
 };

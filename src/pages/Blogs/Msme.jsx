@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
 import "./Blog.css";
 
 const Msme = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <Helmet>
@@ -312,14 +315,43 @@ const Msme = () => {
             </p>
           </div>
           <div className="Ads">
-            <p>
-              adfoisaioash oas siof asdiofj asofj oiasjio ojfh oasaf oashjsfio
-              asodfhd ass fojashfo ashf aiofj asfasioh aosjhf oasojasjo fhasjof
-              aojsjf fojashfas o
-            </p>
+            <div className="blog-button">
+              <div className="whatsapp-button">
+                <button
+                  className="blog-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/7020045454?text=Hi%20there,%20I%27m%20interested%20in%20your%20services.",
+                      "_blank",
+                      "noopener noreferrer"
+                    )
+                  }
+                >
+                  <img
+                    width="25"
+                    height="25"
+                    src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                    alt="whatsapp--v1"
+                  />
+                  Connect with WhatsApp
+                </button>
+              </div>
+              <div className="appointment-button">
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
+                  <img
+                    width="25"
+                    height="25"
+                    src="https://img.icons8.com/color/48/tear-off-calendar--v1.png"
+                    alt="tear-off-calendar--v1"
+                  />
+                  Book an Appointment
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
     </>
   );
 };

@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
+
 
 import "./Blog.css";
 
 const Economic = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <Helmet>
@@ -469,7 +474,7 @@ const Economic = () => {
                 </button>
               </div>
               <div className="appointment-button">
-                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
                   <img
                     width="25"
                     height="25"
@@ -483,6 +488,8 @@ const Economic = () => {
           </div> 
         </div>
       </div>
+      {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
+
     </>
   );
 };

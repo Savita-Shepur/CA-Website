@@ -1,8 +1,13 @@
 import React from "react";
 import "./Blog.css";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
+
 
 const Aoa = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
       <Helmet>
@@ -24,10 +29,9 @@ const Aoa = () => {
         </div>
         <div className="body">
           <div className="links">
-            <p>
-              dhsaudiosa dshisahjdhsaohdas ihdas dsa has jsajoh
-              djasshfhsajkdfsoajd sahfj h asdhsa hfjsdahfuiewyf{" "}
-            </p>
+            <Link>
+              <h1></h1>
+            </Link>
           </div>
           <div className="blog">
             <h1>Introduction to Articles of Association</h1>
@@ -342,14 +346,6 @@ const Aoa = () => {
             </ul>
           </div>
           <div className="Ads">
-            <p>
-              sdshjsd oiasdffdiosadio aiosjfosaj sajd asioj psafias jas
-              fiasdjifajs apidf asj asjd asjdasdas jdklasdj sajdasdiofisadfiosdu
-              fas fdioasfigudffughwed
-            </p>
-          </div>
-        </div>
-        <div className="Ads">
             <div className="blog-button">
               <div className="whatsapp-button">
                 <button
@@ -372,7 +368,7 @@ const Aoa = () => {
                 </button>
               </div>
               <div className="appointment-button">
-                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
                   <img
                     width="25"
                     height="25"
@@ -384,7 +380,9 @@ const Aoa = () => {
               </div>
             </div>
           </div> 
+        </div>
       </div>
+      {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
     </>
   );
 };

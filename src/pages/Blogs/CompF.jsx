@@ -1,8 +1,12 @@
 import React from "react";
 import "./Blog.css";
 import { Helmet } from "react-helmet-async";
+import Modal from '../../component/form/Enquery';
+import { useState } from "react";
+
 
 const CompF = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
     <Helmet>
@@ -346,7 +350,7 @@ incorporate the company"
                 </button>
               </div>
               <div className="appointment-button">
-                <button className="blog-btn" onClick={() => alert("Open Modal")}>
+                <button className="blog-btn" onClick={() => setModalOpen(true)}>
                   <img
                     width="25"
                     height="25"
@@ -360,6 +364,7 @@ incorporate the company"
           </div> 
       </div>
     </div>
+    {isModalOpen && <Modal closeModal={() => setModalOpen(false)} />}{' '}
     </>
   );
 };
