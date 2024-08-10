@@ -10,16 +10,31 @@ function Shop_act() {
 
   return (
     <>
-    <Helmet>
-    <title></title>
+     <Helmet>
+    <title>Shop Act Registration Services in India | Expert CA Firm Assistance"</title>
         <meta
           name="description"
-          content=""
+          content="Efficient Shop Act Registration services in India by our CA firm. We handle the entire process from documentation to approval, ensuring your business complies with local regulations"
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="shop act licence,
+shop act,
+Shop Act registration,
+Shop and establishment registration,
+Shop Act license,
+Shop registration,
+Workplace registration,
+online shop act licence maharashtra,
+shop act licence maharashtra online,
+shop act licence maharashtra,
+online shop act license,
+shop act license online,
+shop act maharashtra,
+shop act registration online,
+shop & establishment act registration,
+Shop Act registration in Pune"
         />
     </Helmet>
        <div className="main-container">

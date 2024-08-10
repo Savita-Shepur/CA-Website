@@ -11,10 +11,28 @@ const Fixed = () => {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
+        <title>Mastering Fixed Deposits: The Ultimate Guide to Secure Investments |CA Dhiraj Ostwal</title>
+        <meta name="description" content="Our CA Dhiraj Ostwal offers expert advice on Fixed Deposits with 'Mastering Fixed Deposits: The Ultimate Guide to Secure Investments.' We provide comprehensive guidance on FD options, interest rates, and investment strategies to help you secure and grow your wealth safely." />
         <link rel="canonical" href="/services/advi/invest" />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="fixed deposite,
+fixed deposite rate of interest,
+fixed deposite sbi interest rate,
+fixed deposite rates hdfc bank,
+fixed deposite interest rate axis bank,
+fixed deposit percentage in sbi,
+fixed deposit interest rate,
+fixed deposit interest rate sbi,
+fixed deposit rates icici bank,
+fixed deposit of sbi,
+fixed deposit for tax saving,
+fixed deposit highest rate,
+fixed deposit rates of indian bank,
+fixed deposit rates of bank of india,
+fixed deposit meaning,
+fixed deposit scheme in post office,
+fixed deposit for tax exemption,
+fixed deposit double scheme in sbi,
+" />
       </Helmet>
       <div className="main-container">
         <div className="title">

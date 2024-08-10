@@ -11,15 +11,24 @@ const Partner = () => {
   return (
     <>
     <Helmet>
-    <title></title>
+    <title>Partnership Deed Services | Expert CA Firm Drafting & Advisory</title>
         <meta
           name="description"
-          content=""
+          content="Professional Partnership Deed services by our CA firm. We specialize in drafting and reviewing partnership deeds to ensure clarity, legal compliance, and effective partnership management."
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="partnership deed rules,
+partnership firm registration,
+partnership deed,
+partnership deed format,
+partnership deed meaning,
+partnership deed format in word,
+partnership deed registration,
+partnership agreement example,
+partnership deed example,
+partnership deed sample pdf"
         />
     </Helmet>
     <div className="main-container">

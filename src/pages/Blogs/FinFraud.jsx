@@ -10,10 +10,22 @@ const FinFraud = () => {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
+        <title>Financial Fraud Unveiled: Protecting Yourself in the Digital Age |CA Dhiraj Ostwal</title>
+        <meta name="description" content="Our CA Dhiraj Ostwal offers essential services with 'Financial Fraud Unveiled: Protecting Yourself in the Digital Age.' We provide expert advice on detecting, preventing, and recovering from financial fraud, helping you safeguard your assets and digital presence." />
         <link rel="canonical" href="/services/advi/invest" />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="financial fraud,
+fraud case section,
+frauds in india,
+financial fraud in india,
+what is legal help,
+case for money,
+financial help needed,
+financial fraud cyber crime,
+bank fraud cases,
+fraud cases in banks,
+financial frauds in india case study,
+financial statement frauds,
+" />
       </Helmet>
       <div className="main-container">
         <div className="title">

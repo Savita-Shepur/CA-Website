@@ -13,10 +13,18 @@ const InvestmentAd = () => {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
+        <title>Mastering Investment Advisory: Your Guide to Smart Financial Decisions | CA Dhiraj Ostwal</title>
+        <meta name="description" content="Our CA Diraj Ostwal offers expert investment advisory services with 'Mastering Investment Advisory: Your Guide to Smart Financial Decisions.' We provide personalized financial strategies, portfolio management, and risk assessment to help you achieve your financial goals." />
         <link rel="canonical" href="/services/advi/invest" />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="investment advisory,
+investment advisor,
+investment advisor sebi,
+investment advisory association,
+investment advisory services,
+investment benefits,
+investment advisor regulations sebi,
+investment advisor in pune,
+" />
       </Helmet>
       <div className="main-container">
         <div className="title">

@@ -11,15 +11,26 @@ const Startup = () => {
   return (
     <>
         <Helmet>
-    <title></title>
+    <title>Startup India Registration Services</title>
         <meta
           name="description"
-          content=""
+          content="Get your business registered under Startup India with our expert CA firm. We provide seamless registration services, guiding you through every step to unlock benefits and growth opportunities."
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="startup india,
+startup india registration,
+startup of india,
+startup india funding,
+startup india foundation,
+startup india loan,
+startup india company,
+startup india registration fee,
+startup india loan scheme,
+startup india definition,
+startup india registration process,
+startup india business loan"
         />
     </Helmet>
     <div className="main-container">

@@ -12,10 +12,13 @@ const Economic = () => {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
+        <title>Comprehensive Economic Offence Services | CA Dhiraj Ostwal </title>
+        <meta name="description" content="Our CA Dhiraj Ostwal offers expert Economic Offence Services, including financial fraud investigation, forensic accounting, anti-money laundering compliance, and litigation support. Protect your business with our comprehensive solutions." />
         <link rel="canonical" href="/services/advi/invest" />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="economic offence,
+        economic offence wing,
+        economic offence wing pune,
+        economic offences wing meaning," />
       </Helmet>
       <div className="main-container">
         <div className="title">

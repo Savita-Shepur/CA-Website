@@ -10,15 +10,42 @@ const NonProfitCom = () => {
   return (
     <>
     <Helmet>
-    <title></title>
+    <title>NPO Services | Expert CA Firm Support for Non-Profit Organizations</title>
         <meta
           name="description"
-          content=""
+          content="Comprehensive services for Non-Profit Organizations (NPOs) by our CA firm. We offer guidance on registration, compliance, and financial management to help your NPO achieve its mission effectively."
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="npo,
+npo questions,
+legal services,
+Society registration,
+npo full form in medical,
+charitable trust,
+NGO registration,
+registration ngo,
+npo individual login,
+registration fees,
+Trust registration,
+k s legal,
+free legal services,
+npop,
+npop full form,
+non for profit organization examples,
+non profit organizations examples,
+ngo registration process,
+n g o registration process,
+how to set up ngo,
+एनजीओ रजिस्ट्रेशन फीस,
+non profit organization accounting,
+fast growing company in india,
+ngo registration fees,
+society registration haryana,
+society registration mp,
+ngo registration charges,
+charitable trust registration"
         />
     </Helmet>
     <div className="main-container">

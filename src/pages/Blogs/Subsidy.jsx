@@ -12,9 +12,22 @@ const Subsidy = () => {
     <>
       <Helmet>
         <title></title>
-        <meta name="description" content="" />
+        <meta name="description" 
+        content="Expert Subsidies and Loans services by our CA firm. We assist in securing government subsidies and loans, providing end-to-end guidance to help your business grow and thrive." />
         <link rel="canonical" href="" />
-        <meta name="keywords" content="" />
+        <meta name="keywords" 
+        content="subsidy,
+subsidiary alliance,
+subsidy meaning,
+subsidy on home loan,
+subsidiary company,
+subsidy bharat gas,
+subsidy loan,
+subsidy on electric scooter,
+subsidy government,
+subsidy in agriculture,
+solar subsidy 2024,
+subsidy in education loan" />
       </Helmet>
       <div className="main-container">
         <div className="title">

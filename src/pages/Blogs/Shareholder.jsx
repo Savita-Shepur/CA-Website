@@ -11,15 +11,20 @@ const Shareholder = () => {
   return (
     <>
     <Helmet>
-    <title></title>
+    <title>Shareholder Agreements Services | Expert Drafting & Advisory by CA Firm</title>
         <meta
           name="description"
-          content=""
+          content="Comprehensive Shareholder Agreements services by our CA firm. We specialize in drafting, reviewing, and advising on shareholder agreements to protect your business interests."
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="shareholders agreement,
+shareholders agreement form,
+shareholders agreement draft,
+shareholders agreement pdf,
+what is shareholders agreement,
+shareholders agreement format india"
         />
     </Helmet>
     <div className="main-container">

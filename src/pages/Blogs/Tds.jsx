@@ -15,12 +15,35 @@ const Tds = () => {
     <title></title>
         <meta
           name="description"
-          content=""
+          content="Comprehensive TDS services by our CA firm. We handle TDS compliance, filing, and advisory to ensure your business meets all regulatory requirements efficiently."
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="tds,
+tds meaning,
+tds return, 
+tds on rent,
+TDS challan,
+tds for salary,
+tds return due date,
+tds deduction,
+tds return filing,
+tds return how to file,
+tds due dates,
+tds deduction rules,
+tds filing,
+tds e filing,
+tds filing due date,
+tds form 16,
+tds forms,
+tds interest rate,
+tds in income tax,
+tds as 26,
+tds refund status check,
+TDS audit extension,
+TDS refund services?,
+tds management consultant pvt ltd"
         />
     </Helmet>
     <div className="main-container">

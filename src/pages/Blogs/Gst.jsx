@@ -14,7 +14,7 @@ const Gst = () => {
     <title>Expert GST Services by CA Dhiraj Ostwal</title>
         <meta
           name="description"
-          content="Our CA firm provides comprehensive GST services, including registration, compliance, and filing. Simplify your GST obligations with our expert support and accurate solutions."
+          content="Our CA Dhiraj Ostwal provides comprehensive GST services, including registration, compliance, and filing. Simplify your GST obligations with our expert support and accurate solutions."
         />
         <link rel="canonical" href="/services/taxservices/gst" />
         <meta

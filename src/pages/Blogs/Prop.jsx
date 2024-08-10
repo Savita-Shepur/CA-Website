@@ -11,15 +11,21 @@ const Prop = () => {
   return (
     <>
     <Helmet>
-    <title></title>
+    <title>Navigating Property Matters</title>
         <meta
           name="description"
-          content=""
+          content="Expert assistance in Navigating Property Matters by our CA firm. We provide comprehensive guidance on property transactions, legal compliance, and financial considerations to safeguard your investments."
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="property disputes,
+Property advisory,
+prop advisors,
+property dispute attorney,
+property dispute cases between brothers,
+property legal advise,
+property dispute in family"
         />
     </Helmet>
          <div className="main-container">

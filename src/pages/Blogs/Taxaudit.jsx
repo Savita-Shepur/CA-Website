@@ -14,12 +14,50 @@ const Taxaudit = () => {
     <title></title>
         <meta
           name="description"
-          content=""
+          content="Professional Tax Audit services by our CA firm. Ensure compliance with tax laws through thorough audits, accurate reporting, and expert advisory tailored to your business needs."
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="pune tax property,
+tax audit due date,
+tax audit due date extension,
+Tax audit,
+tax audit applicability,
+tax audit limit,
+tax audit last date,
+income tax tax audit report due date,
+tax audit due date extended,
+tax audit date extended,
+income tax pune,
+tax audit date extended,
+importance of auditors,
+Tax audit reporting,
+What is a tax audit,
+tax audit report,
+what is tax audit,
+tax audit due date extension notification,
+tax audit report,
+tax audit meaning,
+tax audit turnover limit,
+income tax audit due date,
+tax audit meaning,
+tax audit turnover limit,
+income tax audit due date,
+importance of audit report,
+corporate governance audit,
+taxguru consultancy & online publication llp,
+importance of audit report,
+Income tax audit,
+tax audit due date extension latest news twitter,
+income tax audit report due date,
+how to avoid tax on savings account interest,
+tax audit due date extended latest news,
+tax consultancy courses,
+tax audit due date extended latest news,
+importance of auditor report,
+tax audit due date extension latest news twitter,
+income tax audit"
         />
     </Helmet>
     <div className="main-container">

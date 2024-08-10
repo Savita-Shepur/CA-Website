@@ -11,15 +11,22 @@ const Leasedeed = () => {
   return (
     <>
     <Helmet>
-    <title></title>
+    <title>Lease Agreement</title>
         <meta
           name="description"
-          content=""
+          content="Understanding Lease Deeds: A Comprehensive Guide for Landlords and Tenants | CA Dhiraj Ostwal "
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="lease agreement pdf,
+lease agreement contract,
+lease deed,
+lease agreement house,
+lease agreement template,
+lease deed format,
+lease agreement example,
+"
         />
     </Helmet>
     <div className="main-container">

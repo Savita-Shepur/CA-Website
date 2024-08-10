@@ -10,10 +10,22 @@ const ImportExport = () => {
   return (
     <>
       <Helmet>
-        <title></title>
-        <meta name="description" content="" />
+        <title>Navigating the World of Import-Export: A Comprehensive Guide for Businesses |CA Dhiraj Ostwal</title>
+        <meta name="description" content="Our CA Dhiraj Ostwal offers expert services in Import-Export, helping businesses navigate global trade with 'Navigating the World of Import-Export: A Comprehensive Guide for Businesses.' We provide compliance, documentation, and strategic advisory to ensure smooth international transactions" />
         <link rel="canonical" href="/services/advi/invest" />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content="import export,
+export form india,
+export india,
+export of india,
+import export,
+import tax in india,
+import tax on cars in india,
+export definition,
+import substitution,
+import tax on gold in india,
+export import bussness,
+import duty,
+export of services under gst," />
       </Helmet>
       <div className="main-container">
         <div className="title">

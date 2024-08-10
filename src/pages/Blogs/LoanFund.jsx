@@ -11,15 +11,41 @@ const LoanFund = () => {
   return (
     <>
     <Helmet>
-    <title></title>
+    <title>Startup Funding & Loans Services | Expert CA Firm Guidance</title>
         <meta
           name="description"
-          content=""
+          content="Unlock growth with our Startup Funding and Loans services. Our CA firm offers expert guidance in securing funding and loans, helping startups navigate financial options and achieve their business goals"
         />
         <link rel="canonical" href="" />
         <meta
           name="keywords"
-          content=""
+          content="funding for startups,
+loans for startups,
+startup funding,
+bussiness loans for startups,
+loans for women enterpreneurs,
+crowd funding for startups,
+startup funding stage,
+grant funding for startups,
+loans for startup bussinee in india,
+startup funding in india,
+loans for startups india,
+seed startup funding,
+how to get funding for startups,
+startup funding phases,
+types of startup funding,
+government loans for startups,
+government funding for startups,
+seed funding for startups in india,
+msme loans for startups,
+business loans for startups in india,
+funding for startups in india by government,
+mudra loans for startups,
+venture funding for startups,
+startup funding platform,
+startup funding sources,
+small business loans for startups,
+government funding for startups in india"
         />
     </Helmet>
     <div>
